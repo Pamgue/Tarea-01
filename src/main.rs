@@ -37,10 +37,9 @@ fn pausar() {
 fn ejecutar( arg:Vec<String>){
 
     let mut marks = HashMap::new();
+    let mut cmd = Command::new(&arg[2]);
 
-    let mut cmd = Command::new(&arg[3]);
-    println!("{}", &arg[2]);
-    cmd.arg(&arg[4]);
+    cmd.arg(&arg[3]);
 
        
     match cmd.output(){

@@ -1,5 +1,5 @@
 [package]
-name = "tarea_so"
+name = "rastreador"
 version = "0.1.0"
 authors = ["Pamela Guerrero <pamcrisgues@gmail.com>"]
 edition = "2018"
